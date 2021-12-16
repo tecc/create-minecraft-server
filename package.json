@@ -3,7 +3,7 @@
   "publisher": "SlickNicky10",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/cli.js",
   "types": "./dist/types.d.ts",
   "bin": {
     "cmc": "./dist/cli.js",
