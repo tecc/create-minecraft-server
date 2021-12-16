@@ -1,0 +1,13 @@
+import type { Options } from "../structs";
+export declare function colorBool(bool: boolean): string;
+export declare function createId(): string;
+export declare function createServerPath(options: Options): string;
+export declare function downloadFile(url: string, path: string): Promise<void>;
+export declare function finished(dir: string): void;
+export declare function get(url: string): Promise<string>;
+export declare function isInsideDirectory(base: string, target: string): boolean;
+export declare function isInteger(number: string): boolean;
+export declare function parseMemory(ram: string): number;
+export declare function terminate(error: string): never;
+export declare function usingCache(): void;
+export declare function writeServerFiles(options: Options): void;
