@@ -1,17 +1,16 @@
 {
   "name": "create-minecraft-server",
   "publisher": "SlickNicky10",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "types": "./dist/types.d.ts",
+  "version": "0.1.1",
+  "description": "Quickly create Minecraft servers without hassle.",
+  "main": "./dist/cli.js",
+  "types": "./dist/main.d.ts",
   "bin": {
     "cmc": "./dist/cli.js",
     "create-minecraft-server": "./dist/cli.js"
   },
   "files": [
-    "dist/",
-    "src/"
+    "dist/"
   ],
   "publishConfig": {
     "access": "public"
@@ -29,8 +28,15 @@
     "mc",
     "cmc"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Nick <contact@slicknicky10.me>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlickNicky10/create-minecraft-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SlickNicky10/create-minecraft-server/issues"
+  },
   "devDependencies": {
     "@types/inquirer": "^8.1.3",
     "@types/node": "^16.11.13",
